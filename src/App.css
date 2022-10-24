@@ -1,38 +1,153 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* CSS Custom Properties */
+:root {
+  /* Colours */
+  --clr-primary-300: 193, 38%, 86%;
+  --clr-primary-500: 150, 100%, 66%;
+
+  --clr-neutral-300: 217, 19%, 38%;
+  --clr-neutral-500: 217, 19%, 24%;
+  --clr-neutral-900: 218, 23%, 16%;
+
+  /* Typography */
+  --fs-body: 1.75rem;
+  --ff-manrope: 'Manrope',
+    sans-serif;
+  --fw-800: 800;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-manrope);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-800);
+  background-color: hsl(var(--clr-neutral-900));
+  color: hsl(var(--clr-primary-300));
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+/* Quote Box */
+.quoteBox {
+  background-color: hsl(var(--clr-neutral-500));
+  width: 540px;
+  height: 332px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 1.5em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1em;
+  border-radius: 0.5em;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.quoteBox__title {
+  color: hsl(var(--clr-primary-500));
+  font-size: 13px;
+  letter-spacing: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.quoteBox__quote {
+  letter-spacing: -0.3px;
+}
+
+.quoteBox__lineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.horizontal-line {
+  border: 1px solid hsl(var(--clr-neutral-300));
+  width: 196px;
+}
+
+.verticalLines {
+  display: flex;
+  gap: 8px;
+}
+
+.vertical-line {
+  height: 16px;
+  width: 6px;
+  background-color: hsl(var(--clr-primary-300));
+  border-radius: 1em;
+}
+
+.quoteBox__quoteBtn {
+  cursor: pointer;
+  background-color: hsl(var(--clr-primary-500));
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 1.25em;
+  position: absolute;
+  bottom: -30px;
+}
+
+.dice-icon {
+  font-size: 24px;
+  color: hsl(var(--clr-neutral-900));
+}
+
+@media screen and (max-width: 560px) {
+  .quoteBox {
+    width: 343px;
+    height: 315px;
+    gap: 0.5em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .quoteBox__title {
+    font-size: 11px;
   }
+
+  .quoteBox__quote {
+    font-size: 24px;
+    letter-spacing: 0.26px;
+  }
+
+  .horizontal-line {
+    width: 122px;
+  }
+
+  .quoteBox__quoteBtn {
+    bottom: -35px;
+  }
+}
+
+/* Footer */
+.footer {
+  font-size: 11px;
+  margin-top: 5em;
+}
+
+.footer a {
+  color: hsl(var(--clr-primary-500));
+}
+
+.footer__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
 }

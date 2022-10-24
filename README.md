@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Advice Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Challenge from [Frontend Mentor](https://www.frontendmentor.io/)
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+The purpose of this project was to practice HTML, CSS and JavaScript skills with
+a design from Frontend Mentor challenge
 
-### `npm start`
+## Challenge Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"This is a nice, small project to practice handling user interactions and
+updating the DOM. Perfect for anyone who has learned the basics of JavaScript!"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+**Client:** HTML, CSS, JavaScript, React, FontAwesome
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Authors
 
-### `npm run build`
+- [@haylzrandom - GitHub](https://www.github.com/haylzrandom)
+- [@haylzrandom - Frontend Mentor](https://www.frontendmentor.io/profile/HaylzRandom)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Interactive Rating Component](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Related
 
-### `npm run eject`
+Here are some related projects
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Order Summary Component](https://github.com/HaylzRandom/order-summary-component)
+- [QR Code Component](https://github.com/HaylzRandom/qr-code-component)
+- [NFT Preview Card Component](https://github.com/HaylzRandom/nft-preview-card-component)
+- [Stats Preview Component](https://github.com/HaylzRandom/stats-preview-card-component)
+- [Interactive Rating Component](https://github.com/HaylzRandom/interactive-rating-component)
+- [Calculator App with Theme Changer](https://github.com/HaylzRandom/calculator-app)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Desktop Screenshot
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./screenshots/desktop-screenshot.png" alt="Desktop Screenshot" width="500">
 
-## Learn More
+Mobile Screenshot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./screenshots/mobile-screenshot.png" alt="Mobile Screenshot" width="200">
